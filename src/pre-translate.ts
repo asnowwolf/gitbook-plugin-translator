@@ -58,5 +58,5 @@ function swapNode(node1: ASTNode, node2: ASTNode): void {
 }
 
 function shouldPreTranslate(node) {
-  return /(h\d|p|dt|dd)/i.test(node.tagName!);
+  return /(h\d|p|dt|dd|t)/i.test(node.tagName!);
 }

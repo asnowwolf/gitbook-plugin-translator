@@ -56,6 +56,6 @@ function swapNode(node1, node2) {
     siblings[index2] = node1;
 }
 function shouldPreTranslate(node) {
-    return /(h\d|p|dt|dd)/i.test(node.tagName);
+    return /(h\d|p|dt|dd|t)/i.test(node.tagName);
 }
 //# sourceMappingURL=pre-translate.js.map
